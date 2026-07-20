@@ -134,10 +134,10 @@ The human product decisions remained explicit. In particular, the project owner 
 
 ### Codex evidence for the submission
 
-Before the Devpost submission, add the `/feedback` Session ID from the primary DormMatch build task here:
+The primary DormMatch build task was shared through Codex `/feedback` for the hackathon submission:
 
 ```text
-Primary Codex Session ID: TO_BE_ADDED_BEFORE_SUBMISSION
+Primary Codex Session ID: 019f70b9-2ec5-7f12-887a-c70b4f6bf8bb
 ```
 
 ## Repository structure
