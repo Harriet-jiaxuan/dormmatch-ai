@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { CheckCircle, IdentificationCard, WarningCircle } from '@phosphor-icons/react'
 import { PrimaryButton, SecondaryButton } from '../components/Controls.jsx'
+import { demoApplicant } from '../data.js'
 import { useI18n } from '../i18n.js'
 
 export function EligibilityStep({ state, setState, onComplete }) {
@@ -48,8 +49,8 @@ export function EligibilityStep({ state, setState, onComplete }) {
             <strong>{t('eligibility.verifiedBy')}</strong>
           </div>
           <dl className="detail-list">
-            <div><dt>{t('eligibility.name')}</dt><dd>Jiaxuan Xu</dd></div>
-            <div><dt>{t('eligibility.eid')}</dt><dd>jiax***</dd></div>
+            <div><dt>{t('eligibility.name')}</dt><dd>{demoApplicant.name}</dd></div>
+            <div><dt>{t('eligibility.eid')}</dt><dd>{demoApplicant.eid}</dd></div>
             <div><dt>{t('eligibility.eligibility')}</dt><dd>{t('eligibility.eligible')}</dd></div>
             <div><dt>{t('eligibility.gender')}</dt><dd>{t('eligibility.femaleHousing')}</dd></div>
           </dl>

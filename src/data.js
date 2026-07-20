@@ -6,6 +6,11 @@ export const steps = [
   'Matching Pool',
 ]
 
+export const demoApplicant = {
+  name: 'Alex Chan',
+  eid: 'achan***',
+}
+
 export const roomTypes = [
   {
     id: 'large-double-78',

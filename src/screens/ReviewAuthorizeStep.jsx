@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { CheckCircle, CreditCard, LockKey, ShieldCheck, WarningCircle } from '@phosphor-icons/react'
-import { formatCurrency, lifestyleQuestions, localizeAnswer, localizeRoom, roomTypes } from '../data.js'
+import { demoApplicant, formatCurrency, lifestyleQuestions, localizeAnswer, localizeRoom, roomTypes } from '../data.js'
 import { BackButton, PageActions, PrimaryButton, SecondaryButton } from '../components/Controls.jsx'
 import { useI18n } from '../i18n.js'
 
@@ -82,7 +82,7 @@ export function ReviewAuthorizeStep({ choices, order, answers, onBack, editRooms
       <div className="review-sections">
         <section>
           <div className="review-title"><h2>{t('review.identityTitle')}</h2><span className="verified-text"><CheckCircle size={18} weight="fill" />{t('review.verified')}</span></div>
-          <dl className="review-grid"><div><dt>{t('eligibility.name')}</dt><dd>Jiaxuan Xu</dd></div><div><dt>{t('eligibility.eid')}</dt><dd>jiax***</dd></div><div><dt>{t('eligibility.gender')}</dt><dd>{t('eligibility.femaleHousing')}</dd></div></dl>
+          <dl className="review-grid"><div><dt>{t('eligibility.name')}</dt><dd>{demoApplicant.name}</dd></div><div><dt>{t('eligibility.eid')}</dt><dd>{demoApplicant.eid}</dd></div><div><dt>{t('eligibility.gender')}</dt><dd>{t('eligibility.femaleHousing')}</dd></div></dl>
         </section>
         <section>
           <div className="review-title"><h2>{t('review.roomTitle')}</h2><button type="button" onClick={editRooms}>{t('common.edit')}</button></div>
