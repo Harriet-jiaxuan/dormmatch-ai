@@ -75,7 +75,7 @@ npm install
 npm run dev
 ```
 
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/).
+Open https://dormmatch-ai.vercel.app/ 
 
 To create a production build:
 
