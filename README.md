@@ -4,7 +4,7 @@ DormMatch is a bilingual, auditable residence-allocation prototype for students 
 
 **Live demo:** [dormmatch-ai.vercel.app](https://dormmatch-ai.vercel.app)
 
-![DormMatch application flow](outputs/final/dormmatch-desktop-en.png)
+![DormMatch live application experience](outputs/final/dormmatch-live-desktop-en.png)
 
 > **Independent hackathon prototype:** DormMatch is not an official City University of Hong Kong service and is not affiliated with or endorsed by CityUHK. Identity verification, payment authorization, residence inventory, and applicant data are simulated for demonstration.
 
