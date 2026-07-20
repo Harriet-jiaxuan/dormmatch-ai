@@ -2,6 +2,8 @@
 
 DormMatch is a bilingual, auditable residence-allocation prototype for students applying to CityUHK's South Mountain Residence. It replaces fragile self-organized teams and speed-based payment races with individual applications, a synchronized lottery, preference-aware bed allocation, and post-allocation lifestyle grouping.
 
+**Live demo:** [dormmatch-ai.vercel.app](https://dormmatch-ai.vercel.app)
+
 ![DormMatch application flow](outputs/final/dormmatch-desktop-en.png)
 
 > **Independent hackathon prototype:** DormMatch is not an official City University of Hong Kong service and is not affiliated with or endorsed by CityUHK. Identity verification, payment authorization, residence inventory, and applicant data are simulated for demonstration.
