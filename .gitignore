@@ -9,3 +9,5 @@ dist/
 .DS_Store
 *.log
 tmp/
+.vercel/
+.playwright-cli/
